@@ -10,6 +10,7 @@ var end =false;
 var mozgas;
 var toronymovement;
 var robbanas = document.getElementById("boom")
+var reload = document.getElementById("gonb")
 
 
 function moveRect() {
@@ -115,6 +116,7 @@ function hitboxtouch() {
     console.log(repuloHitbox.getAttribute('y'))
     
     robbanas.style.visibility = 'visible';
+     reload.style.visibility = 'visible';
 
   }
 }
